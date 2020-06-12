@@ -1,0 +1,70 @@
+ body {
+      position: relative;
+  }
+  .affix {
+      top: 20px;
+      z-index: 9999 !important;
+  }
+   .nav-pills a{
+   	color: #B71427;
+   }
+   .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+   	background: #E44424 !important;	
+  	color: #fff;	
+   }
+  .container-pg{
+  	background-color:#B71427;
+  	font-size:18px;
+  	color: #fff;
+  	padding: 70px;
+  }
+  .parallax, .parallax-2, .parallax-3, .parallax-4{ 
+	  min-height: 400px; 
+    background-image: url("../img/1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax-2{
+	 background-image: url("../img/2.jpg");
+  }
+  .parallax-3{
+	 background-image: url("../img/3.jpeg");
+  }
+  .parallax-4{
+	 background-image: url("../img/4.jpg");
+  }
+  .company h1{
+    font-size: 30px;
+    margin:0px; 
+  }
+  .company img{
+    float: right; width: 80px; height: 80px;
+  }
+  .header{
+    background-color:#B71427;color:#fff;
+    padding: 15px;
+  }
+  .container-pg footer{
+    color: #fff;
+  }
+  .container-pg blockquote{
+    font-size: 18px;
+  }
+
+  @media (max-width: 767px){
+  .container-pg{
+    padding: 20px;
+    font-size: 16px;
+  }
+  .company h1, .container-pg blockquote, .container-pg h3{
+    font-size: 16px;
+  }
+  .company h3{
+    font-size: 14px;
+  }
+  .company img{
+    float: right; width: 50px; height: 50px;
+  }
+  }

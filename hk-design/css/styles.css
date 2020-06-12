@@ -1,0 +1,37 @@
+ body {
+      position: relative;
+  }
+  .affix {
+      top: 20px;
+      z-index: 9999 !important;
+  }
+   .nav-pills a{
+   	color: #B71427;
+   }
+   .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+   	background: #E44424 !important;	
+  	color: #fff;	
+   }
+  .pg{
+	background-color:#B71427;
+	font-size:18px;
+	color: #fff;
+	padding: 70px;
+  }
+  .parallax, .parallax-2, .parallax-3, .parallax-4{ 
+	min-height: 400px; 
+    background-image: url("img/1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax-2{
+	background-image: url("img/2.jpg");
+  }
+  .parallax-3{
+	background-image: url("img/3.jpeg");
+  }
+  .parallax-4{
+	background-image: url("img/4.jpg");
+  }
